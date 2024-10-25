@@ -4,14 +4,15 @@
     margin: 0;
 }
 body{
-    background: #000;
+    /* background: #000; */
 }
 #nav{
     display: grid;
     grid-template-columns: 30% 50% 20%;
-    width: 1200px;
+    width: 800px;
     /* background: #333; */
-    margin: 100px auto;
+    margin: 35px auto;
+    position: fixed;
 }
 #link{
     text-align: right;
@@ -31,4 +32,14 @@ a:hover{
     background-image: url(./img/farm.jpg);
     width: 100%;
     height: 1280px;
+}
+.content{
+    background-image: url(./img/paper.png);
+    height: 600px;
+}
+h1{
+    text-align: center;
+    color: #555;
+    padding: 20px 0;
+    font-weight: 200;
 }
